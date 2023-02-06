@@ -158,9 +158,7 @@ function MainLoop() {
         }
         requestAnimationFrame(mainLoop);
     }
-    setTimeout(function() {
-        mainLoop();
-    }, 1000);
+    mainLoop();
 }
 
 
